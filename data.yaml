@@ -1,0 +1,29 @@
+train: UIDATA/train/images
+val: UIDATA/valid/images
+test: UIDATA/test/images
+
+nc: 14
+names:
+  [
+    "Button",
+    "CheckBox",
+    "CheckedTextView",
+    "EditText",
+    "EditText-",
+    "ImageButton",
+    "ImageView",
+    "ProgressBar",
+    "RadioButton",
+    "RatingBar",
+    "SeekBar",
+    "Spinner",
+    "Switch",
+    "TextView",
+  ]
+
+roboflow:
+  workspace: national-university-of-sciences-and-technology-nust
+  project: ui-components-detection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/national-university-of-sciences-and-technology-nust/ui-components-detection/dataset/2
